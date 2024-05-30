@@ -11,6 +11,7 @@ This repository contains the code for an AI Video Sharing application built with
 - Appwrite
 
 The app is designed to provide seamless user experiences with engaging animations and robust backend integration.
+You can download the APK for the app [here](https://expo.dev/artifacts/eas/jvjJ3NsUzt2FggT5mLntti.apk).
 
 ## Features
 

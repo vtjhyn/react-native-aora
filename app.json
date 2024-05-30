@@ -14,7 +14,8 @@
     },
     "ios": {
       "supportsTablet": true,
-      "package": "cpm.vtjhyn.aora"
+      "package": "cpm.vtjhyn.aora",
+      "bundleIdentifier": "com.vtjhyn.aora"
     },
     "android": {
       "adaptiveIcon": {
@@ -26,6 +27,17 @@
     "web": {
       "favicon": "./assets/favicon.png"
     },
-    "plugins": ["expo-router", "expo-font"]
+    "plugins": [
+      "expo-router",
+      "expo-font"
+    ],
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "4c40a728-377f-4bf2-95ab-e511e9abd9e5"
+      }
+    }
   }
 }
